@@ -69,7 +69,7 @@ function tagObject(tag, paired, properties) {
     this.tag = tag;
     this.paired = paired;
     this.properties = properties;
-    if (this.properties.html) {
+    if (this.properties && this.properties.html) {
         this.children.push(this.properties.html);
     }
     return this;
@@ -105,7 +105,7 @@ tagObject.prototype.html = function() {
 
 function makeStartTag(tag, paired, properties) {
     //assume startTag ends with >
-    var keys = Object.keys(properties);
+    var keys = properties ? Object.keys(properties) : [];
     var i;
     var temp = tag.substring(0, tag.length - 1);
 
