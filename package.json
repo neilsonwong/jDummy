@@ -1,0 +1,19 @@
+{
+  "name": "jdummy",
+  "version": "1.0.0",
+  "description": "bare bare bare bones module to make html strings from fake dom elements",
+  "main": "jDummy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/neilsonwong/jDummy.git"
+  },
+  "author": "neilsonwong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neilsonwong/jDummy/issues"
+  },
+  "homepage": "https://github.com/neilsonwong/jDummy#readme"
+}
