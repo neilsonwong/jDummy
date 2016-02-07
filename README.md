@@ -1,15 +1,19 @@
 I'm fed up with jquery / cheerio on node side of things
 all i ever wanted was to make elements with:
 
+```javascript
 $('<div>', {
-	property: whatever you want to insert,
-	property2: whatever you want to insert2,
+	property: 'whatever you want to insert',
+	property2: 'whatever you want to insert2',
 });
+```
 
-and have those support 
+and have those objects support 
+```javascript
 .append()
 .prepend()
 .html()
+```
 
 Simple enough? i think so haha
 
