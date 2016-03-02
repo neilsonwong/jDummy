@@ -1,6 +1,6 @@
 {
   "name": "jdummy",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "bare bare bare bones module to make html strings from fake dom elements",
   "main": "jDummy.js",
   "scripts": {

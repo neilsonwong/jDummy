@@ -50,6 +50,7 @@ var jDummy = function(tagString, properties) {
             case '<hr>':
             case '<span>':
             case '<input>':
+            case '<img>':
                 paired = false;
                 break;
             default:
